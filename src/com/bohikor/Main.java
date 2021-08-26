@@ -8,5 +8,9 @@ public class Main {
 //        book.displaymessage();
         book.average();
 
+        Circle ball = new Circle(15);
+
+        ball.calculations();
+
     }
 }

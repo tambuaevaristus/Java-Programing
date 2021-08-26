@@ -7,7 +7,6 @@ public class GradeBook {
     public GradeBook(String tname){
         courseName = tname;
     }
-
     public String getCourseName() {
         return courseName;
     }
