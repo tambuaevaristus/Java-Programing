@@ -32,15 +32,22 @@ public class Main {
 
         System.out.println("The lenght of the array is"+ age.length);
 
-        for (int i =0; i<age.length; i++){
-            for (int j=0; j<=age[i]; j++){
-                System.out.print('*');
+        try {
 
+            for (int i =0; i<age.length; i++){
+                for (int j=0; j<=age[i]; j++){
+                    System.out.print('*');
+
+                }
+                System.out.println("");
+                age[15] = 5;
+                System.out.println("still in the try method");
             }
-            System.out.println("");
 
         }
-
+        catch ( ArrayIndexOutOfBoundsException e){
+            System.out.println("An Error occured");
+        }
 
     }
 }
