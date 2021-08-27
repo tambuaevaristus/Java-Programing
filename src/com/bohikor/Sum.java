@@ -5,11 +5,11 @@ public class Sum {
     private int sum = 0;
 
     public void sum(){
-//        while (x<=11) {
+        while (x<=11) {
             sum = sum + x;
             System.out.println("The sum is" + sum);
             x++;
-//        }
+        }
     }
 
 }
