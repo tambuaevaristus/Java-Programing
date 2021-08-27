@@ -31,10 +31,14 @@ public class Main {
         age[4] = 7;
 
         System.out.println("The lenght of the array is"+ age.length);
-        System.out.println("Index  Value");
-        for (int i =0; i<age.length; i++){
 
-            System.out.println(i +"      "+age[i]);
+        for (int i =0; i<age.length; i++){
+            for (int j=0; j<=age[i]; j++){
+                System.out.print('*');
+
+            }
+            System.out.println("");
+
         }
 
 
