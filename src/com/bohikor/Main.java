@@ -7,14 +7,19 @@ public class Main {
         GradeBook book = new GradeBook("Biology");
 //        book.displaymessage();
 //        book.average();
+//
+//        Circle ball = new Circle(15);
+//
+//        ball.calculations();
+//
+//        Square_and_Cube square = new Square_and_Cube();
+//
+//        square.print();
 
-        Circle ball = new Circle(15);
+        Sum numbers = new Sum();
+        numbers.sum();
 
-        ball.calculations();
-
-        Square_and_Cube square = new Square_and_Cube();
-
-        square.print();
-
+        Chrismas day =new Chrismas(5);
+        day.printSong();
     }
 }
