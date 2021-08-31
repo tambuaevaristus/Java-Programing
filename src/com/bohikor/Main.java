@@ -4,31 +4,25 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-//        GradeBook book = new GradeBook("Biology");
-//        book.displaymessage();
-//        book.average();
-//
-//        Circle ball = new Circle(15);
-//
-//        ball.calculations();
-//
-//        Square_and_Cube square = new Square_and_Cube();
-//
-//        square.print();
 
-//        Sum numbers = new Sum();
-//        numbers.sum();
-//
-//        Chrismas day =new Chrismas(5);
-//        day.printSong();
+         Scanner text = new Scanner(System.in);
+         System.out.println("Enter String one");
+         String text1 = text.nextLine();
+         System.out.println("Enter String two");
+         String text2 = text.nextLine();
 
-         int [][] array = {{3,4,2,5},{2,5,7,6}};
+         int dif = text1.compareTo(text2);
 
-         for(int i=0; i<array.length; i++){
-             for (int j=0; j<array[i].length; j++){
-                 System.out.print(array[i][j]);
-             }
-             System.out.println();
+         System.out.println(dif);
+
+         if(dif>0){
+             System.out.println("String One is greater that String Two");
+         }
+         else if (dif<0){
+             System.out.println("String two is greater than string one");
+         }
+         else {
+             System.out.println("The two strings are equal");
          }
     }
 }
